@@ -8,7 +8,7 @@ import org.testng.annotations.DataProvider;
  * @author Sreej
  */
 
-@CucumberOptions(features = "src/test/resources/features/Sample.feature", glue = "steps",
+@CucumberOptions(features = "src/test/resources/features/Customers.feature", glue = "steps",
         plugin = {"json:src/test/resources/cucumberReport/cucumberReport.json", "listeners.BDDTestListener"})
 public class TestRunner extends AbstractTestNGCucumberTests {
 

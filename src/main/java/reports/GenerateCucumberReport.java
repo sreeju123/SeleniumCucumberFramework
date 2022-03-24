@@ -22,13 +22,6 @@ import java.util.List;
  */
 public class GenerateCucumberReport {
 
-    // Execute using main method
-
-    /*
-    public static void main(String[] args) throws IOException, ParseException {
-          generateReport("src/test/resources/cucumberReport/cucumberReport.json");
-    }
-    */
 
     public static void generateReport(String jsonFile) throws IOException, ParseException {
 
