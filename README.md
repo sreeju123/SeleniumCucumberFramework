@@ -26,3 +26,7 @@ WebDriverManager
 
 
 # Report :
+    Reports will be generated on location => "src/test/resources/cucumberReport"
+
+![image](https://user-images.githubusercontent.com/62211370/160762922-dacd765b-a0ff-453b-9d88-c821420fe078.png)
+
