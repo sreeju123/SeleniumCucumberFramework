@@ -19,6 +19,14 @@ WebDriverManager
     4. Configuration can be changed from config.properties inside src/test/resources
 
 # Running Tests :
+    1. Right click the testng.xml file and run
+    2. mvn test -Dcucumber.options="src/test/resources/features/Login.feature" -Dbrowser=chrome ===>(browsers=firefox, chrome)
+![image](https://user-images.githubusercontent.com/62211370/159868917-8d40b29c-2d74-4ee3-8fd7-0b0c03682fa7.png)
+
 
 
 # Report :
+    Reports will be generated on location => "src/test/resources/cucumberReport"
+
+![image](https://user-images.githubusercontent.com/62211370/160762922-dacd765b-a0ff-453b-9d88-c821420fe078.png)
+
