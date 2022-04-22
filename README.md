@@ -30,3 +30,10 @@ WebDriverManager
 
 ![image](https://user-images.githubusercontent.com/62211370/160762922-dacd765b-a0ff-453b-9d88-c821420fe078.png)
 
+# ElasticSearch Live Dashboard
+1. Change sendresulttoelk=yes in config.properties
+2. Run docker compose up
+3. Launch the url http://localhost:5601/app/dashboards and configure the dashboard based on our need
+    ![image](https://user-images.githubusercontent.com/62211370/164709500-7e23db48-e6b8-41d7-84ff-e2a7798569a9.png)
+
+
