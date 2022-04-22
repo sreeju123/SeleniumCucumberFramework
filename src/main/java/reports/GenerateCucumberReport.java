@@ -42,7 +42,7 @@ public class GenerateCucumberReport {
         System.out.println("File : " + file);
         file.close();
 
-        Configuration con = new Configuration(new File("src/test/resources/cucumberReport/"), "Report");
+        Configuration con = new Configuration(new File("target/cucumberReport/"), "Report");
         con.addClassifications("Author", System.getProperty("user.name").toUpperCase());
         con.addClassifications("Browser", ConfigFileReader.get(ConfigProperties.BROWSER).toUpperCase());
 

@@ -9,7 +9,7 @@ import org.testng.annotations.DataProvider;
  */
 
 @CucumberOptions(features = "src/test/resources/features", glue = "steps", monochrome = true, strict = true,
-        plugin = {"json:src/test/resources/cucumberReport/cucumberReport.json", "listeners.BDDTestListener"})
+        plugin = {"json:target/cucumberReport.json", "listeners.BDDTestListener"})
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     @Override

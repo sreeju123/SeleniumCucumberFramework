@@ -42,7 +42,7 @@ public class Hooks {
         System.out.println("Screenshot Taken");
         if (scenario.isFailed()) {
             byte[] screenshot= ((TakesScreenshot)DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.embed(screenshot,"img/png",scenario.getName());
+            scenario.embed(screenshot,"image/png",scenario.getName());
         }
     }
 
