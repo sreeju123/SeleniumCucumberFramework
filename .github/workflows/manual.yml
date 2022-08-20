@@ -26,4 +26,4 @@ jobs:
         java-version: 8
     # Runs a single command using the runners shell
     - name: Run the Test
-      run: mvn test -Dcucumber.options="src/test/resources/features/Customers.feature" -Dbrowser=chrome
+      run: mvn test -Dcucumber.options="src/test/resources/features/Customers.feature" -Dbrowser=firefox
